@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <script type="text/javascript" src="../bower_components/vue/dist/vue.min.js"></script>
+  <script type="text/javascript" src="../src/widget-mask.js"></script>
+  <style type="text/css">
+    /**widget-mask Start**/
+    .widget-mask {
+      position: fixed;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, .3);
+      display: none;
+    }
+
+    .widget-mask[data-visible] {
+      display: block;
+    }
+
+    /**widget-mask  End**/
+
+  </style>
+</head>
+<body>
+
+<widget-mask data-visible="{{visible}}"></widget-mask>
+
+<script type="text/javascript">
+  var vm = new Vue({
+    el: 'body',
+    data: {
+      visible: false
+    }
+  })
+</script>
+</body>
+</html>

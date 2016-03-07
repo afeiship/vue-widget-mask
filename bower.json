@@ -1,0 +1,28 @@
+{
+  "name": "widget-mask",
+  "description": "Widget mask based on next2.",
+  "main": "dist/widget-mask.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "mask",
+    "widget",
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/widget-mask",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^1.0.17"
+  }
+}

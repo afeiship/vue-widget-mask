@@ -1,0 +1,17 @@
+{
+  "name": "widget-mask",
+  "version": "0.0.0",
+  "description": "Widget mask based on next2.",
+  "homepage": "https://github.com/afeiship/widget-mask.git",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "del": "^2.2.0",
+    "gulp": "^3.9.1",
+    "gulp-load-plugins": "^1.2.0",
+    "gulp-sass": "^2.2.0"
+  }
+}
