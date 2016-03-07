@@ -4,26 +4,9 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <script type="text/javascript" src="../bower_components/vue/dist/vue.min.js"></script>
-  <script type="text/javascript" src="../src/widget-mask.js"></script>
-  <style type="text/css">
-    /**widget-mask Start**/
-    .widget-mask {
-      position: fixed;
-      left: 0;
-      right: 0;
-      top: 0;
-      bottom: 0;
-      background: rgba(0, 0, 0, .3);
-      display: none;
-    }
+  <script type="text/javascript" src="../dist/widget-mask.js"></script>
+  <link rel="stylesheet" type="text/css" href="../dist/widget-mask.css"/>
 
-    .widget-mask[data-visible] {
-      display: block;
-    }
-
-    /**widget-mask  End**/
-
-  </style>
 </head>
 <body>
 
@@ -35,7 +18,10 @@
     data: {
       visible: false
     }
-  })
+  });
+
+  //show:vm.visible=true;
+  //hide:vm.visible=false;
 </script>
 </body>
 </html>
