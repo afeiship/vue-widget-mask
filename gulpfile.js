@@ -9,7 +9,7 @@
   });
 
   gulp.task('sass', ['clean'], function () {
-    return gulp.src('src/widget-mask.scss')
+    return gulp.src('src/vue-widget-mask.scss')
       .pipe($.sass({
         outputStyle: 'compressed'  //`nested`, `expanded`, `compact`, `compressed`
       }))
@@ -17,7 +17,7 @@
   });
 
   gulp.task('minifyJs',['clean'],function(){
-    return gulp.src('src/widget-mask.js')
+    return gulp.src('src/vue-widget-mask.js')
       .pipe($.uglify())
       .pipe(gulp.dest('dist'));
   });

@@ -1,7 +1,7 @@
 {
-  "name": "widget-mask",
-  "description": "Widget mask based on next2.",
-  "main": "dist/widget-mask.js",
+  "name": "vue-widget-mask",
+  "description": "Widget mask based on vue.",
+  "main": "dist/vue-widget-mask.js",
   "authors": [
     "afei"
   ],
